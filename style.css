@@ -72,11 +72,9 @@ section.profile .lhs p {
     color: #8997bd;
 }
 
-
 section.profile .lhs .cd-headline.loading-bar .cd-words-wrapper::after {
-    background: linear-gradient(to right, #2b55cc, #1ecab8 );
+    background: linear-gradient(to right, #2b55cc, #1ecab8);
 }
-
 
 section.profile .lhs img {
     width: 128px;
@@ -137,12 +135,29 @@ section.profile .rhs ul.socials li a {
     text-align: center;
 }
 
-section.profile .rhs ul.socials li:nth-child(1) a{
-    background-color:rgb(235, 133, 133);
+section.profile .rhs ul.socials li:nth-child(1) a {
+    background-color: rgb(235, 133, 133);
 }
 
-section.profile .rhs ul.socials li:nth-child(2) a{
-    background-color:#2056ed;
+section.profile .rhs ul.socials li:nth-child(2) a {
+    background-color: #2056ed;
+}
+
+.heading {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    text-shadow: 0 0 1px rgba(40, 54, 95, 0.1);
+    position: relative;
+}
+
+section {
+    padding: 3rem;
+}
+
+main {
+    background-color: #1a253f;
 }
 
 .container {
